@@ -1,26 +1,49 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# invoice-app
-=======
-# React + Vite
+# 🧾 Invoice App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern invoice management web application built with React.  
+This project allows users to create, edit, delete, search, and filter invoices with a clean UI and dark mode support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 cheerful-bonbon-34b34a.netlify.app  
+👉 GitHub Repository: https://github.com/codedbyvictory/invoice-app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 67240e5 (final invoice app)
-=======
-# Invoice App
+- ✅ Create new invoices
+- ✏️ Edit invoices
+- 🗑️ Delete invoices
+- 🔍 Search invoices by client name
+- 🎯 Filter invoices (Paid / Pending / All)
+- 🌙 Dark mode toggle
+- 💾 Data persistence using localStorage
 
-A React invoice management app with CRUD, filtering, search, and dark mode.
->>>>>>> 4e174debd36b6acf86ddca7c6b5c5b88d47ee61f
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- React Router DOM
+- CSS (inline styling)
+
+---
+
+## 📁 Project Structure
+
+src/
+ ├── components/
+ ├── context/
+ ├── pages/
+ ├── App.jsx
+ └── main.jsx
+
+## 📌 Author
+
+Victory Mathias  
+GitHub: https://github.com/codedbyvictory
+ 
